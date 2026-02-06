@@ -1,0 +1,20 @@
+{
+  "name": "buildabingo-pages",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "firebase": "^9.23.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
